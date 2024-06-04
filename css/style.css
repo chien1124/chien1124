@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+   
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+}
+
+header ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ol li {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 2em; /* 增加字体大小 */
+}
+
+
+header ol a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.title2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 1em; /* Adjust the margin to add space between the two titles */
+    margin-right: -3em;
+}
+
+.content-below-video {
+    position: relative;
+    padding: 20px;
+    background: white;
+    color: black;
+    text-align: center;
+    margin-top: 100vh; /* Push the content below the video */
+}
+
+.title-drinks {
+    font-size: 2.8em;
+}
+
+.container {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+/* 添加新的 CSS 规则 */
+.image-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-text img {
+    margin-right: 20px; /* 调整图像与文本之间的间距 */
+    margin-left: 1rem;
+}
+
+.image-with-text p {
+    margin-bottom: 10rem;
+    font-size: 2em; /* 设置文本的字体大小 */
+}
+.image-with-text {
+    position: relative;
+}
+
+.text-overlay {
+/* 添加新的 CSS 规则 */
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    color: white;
+    writing-mode: vertical-rl; /* 将文字设置为纵向排列 */
+    text-align: center;
+    width: 100%; /* 充满父容器宽度 */
+    height: 100%; /* 充满父容器高度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-overlay h1 {
+    font-size: 2em; /* 设置标题的字体大小 */
+    margin-bottom: 10px; /* 调整标题和段落之间的间距 */
+}
+
+.text-overlay p {
+    font-size: 1.2em; /* 设置段落的字体大小 */
+}
+}
+.image-with-text1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.image-with-text1 img {
+    margin-left: 20px; /* 調整圖像與文本之間的間距，這裡將圖像向右移動 */
+}
+
+.image-with-text1 p {
+    margin-top: 50px; /* 調整文本上方間距 */
+    margin-bottom: 50px; /* 調整文本下方間距 */
+    font-size: 1.5em; /* 設置文本的字體大小 */
+}   
+
+.text-overlay1 h1 {
+    margin-top: -50px; /* 調整標題上方間距 */
+    font-size: 2em; /* 設置標題的字體大小 */
+    margin-bottom: 20px; /* 調整標題下方間距 */
+}
+
+.text-overlay1 p {
+    font-size: 1.2em; /* 设置段落的字体大小 */
+}
